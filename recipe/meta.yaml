@@ -6,7 +6,7 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://github.com/orion-labs/{{ name }}/archive/refs/tags/{{ version }}.tar.gz"
+  url: "https://github.com/orion-labs/{{ name }}/archive/refs/tags/{{ version }}.tar.gz"
   sha256: 051522d44d74c1d2f6b87c77b717faffb27d6315814ec1bbfefeab950456018e
 
 build:
