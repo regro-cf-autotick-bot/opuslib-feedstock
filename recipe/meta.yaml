@@ -1,13 +1,13 @@
 {% set name = "opuslib" %}
-{% set version = "3.0.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 2cb045e5b03e7fc50dfefe431e3404dddddbd8f5961c10c51e32dfb69a044c97
+  url: "https://github.com/orion-labs/{{ name }}/archive/refs/tags/{{ version }}.tar.gz"
+  sha256: 051522d44d74c1d2f6b87c77b717faffb27d6315814ec1bbfefeab950456018e
 
 build:
   number: 0
